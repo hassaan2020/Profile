@@ -21,7 +21,6 @@ class App extends Component {
         
         <Header />
         <Navbar/>
-        <Home/>
         <Routes>
           <Route exact path='/' element = {<Home/>}/>
           <Route path='/About' element = {<About/>} />
