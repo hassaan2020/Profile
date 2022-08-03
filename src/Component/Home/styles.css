@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+
+.homePage{
+    background-color: #c9c9c9 ;
+    height: 100vh;
+    width: 80%;
+    float: right;
+    display: flex;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    overflow: hidden;
+}
+.homePage .welcome{
+    padding: 50px;
+    margin-left: 50px;
+    margin-right: 15px;
+    flex-grow: 1;
+}
+.homePage .welcome h2{
+    font-size: 3vh;
+    margin: 5px 15px;
+    color: #151D3B;
+}
+.homePage .welcome h1{
+    font-size: 5vh;
+    margin: 15px 0;
+    color:  #1b6bcb;
+}
+.homePage .welcome h6{
+    font-size: 1.5vh;
+    margin: 10px 15px;
+    color: rgb(109, 108, 108);
+}
+.homePage .welcome h6 .i{
+    margin: 0px 15px;
+    font-size: 13px;
+}
+.homePage .welcome button{
+    padding: 15px 50px;
+    margin: 35px 20px;
+    background-color: transparent;
+    border: 1px solid #151D3B;
+    color: #151D3B;
+    transition: 0.7s;
+}
+.homePage .welcome button:hover{
+    background-color: #151D3B;
+    color: #c9c9c9;
+    transition: 0.7s;
+    cursor: pointer;
+}
+.homePage .imag{
+    height: 600px;
+    width: 600px;
+    box-sizing: border-box;
+    margin: 10px;
+    flex-grow: 1;
+    overflow: hidden;
+    -webkit-mask-image: url(../imgs/c4.png);
+    mask-image: url(../imgs/c4.png);
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;  
+    mask-size: 100%;
+}
+.homePage .imag img{
+    width: 100%;
+    height: 100%;
+}
+
+
+@media only screen and (max-width: 600px) {
+    body{
+        background-color: #c9c9c9;
+    }
+    .homePage{
+        width: 100%;
+        height: auto;
+        padding: 40px 0;
+        display: block;
+    }
+    .homePage .welcome{
+        padding: 15px;
+        margin: auto;
+        text-align: center;
+    }
+    .homePage .welcome h1,h2,h6{
+        text-align: left;
+    }
+    .homePage .imag{
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    body{
+        background-color: #c9c9c9;
+    }
+    .homePage{
+        width: 100%;
+        height: auto;
+        padding: 40px 0;
+        display: block;
+    }
+    .homePage .welcome{
+        padding: 15px;
+        margin: auto;
+        text-align: center;
+    }
+    .homePage .welcome h1,h2,h6{
+        text-align: left;
+    }
+    .homePage .imag{
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    body{
+        background-color: #c9c9c9;
+    }
+    .homePage{
+        width: 100%;
+        height: auto;
+        padding: 40px 0;
+        display: block;
+    }
+    .homePage .welcome{
+        padding: 15px;
+        margin: auto;
+        text-align: center;
+    }
+    .homePage .welcome h1,h2,h6{
+        text-align: left;
+    }
+    .homePage .imag{
+        display: none;
+    }
+}

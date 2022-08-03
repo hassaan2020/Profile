@@ -1,0 +1,105 @@
+.aboutPage{
+    background-color: #c9c9c9 ;
+    height: 100vh;
+    width: 80%;
+    float: right;
+    display: flex;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    overflow: hidden;
+}
+.aboutPage .aboutMe{
+    width: 40%;
+    margin: 10px;
+    margin-left: 60px;
+    flex-grow: 1;
+}
+.aboutPage .aboutMe h1{
+    font-size: 5vh;
+    color: #151D3B;
+    border-bottom: 2px solid #0230c63a;
+}
+.aboutPage .aboutMe p{
+    line-height: 1.7;
+    font-size: 2vh;
+    text-align: justify;
+    text-justify: inter-word;
+    color: #525252;
+}
+.aboutPage .image{
+    height: 600px;
+    width: 600px;
+    box-sizing: border-box;
+    margin: 10px;
+    flex-grow: 1;
+    overflow: hidden;
+    -webkit-mask-image: url(../imgs/c1.png);
+    mask-image: url(../imgs/c1.png);
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;  
+    mask-size: 100%;
+}
+.aboutPage .image img{
+    width: 100%;
+    height: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+    body{
+        background-color: #c9c9c9;
+    }
+    .aboutPage{
+        width: 100%;
+        height: auto;
+        padding: 20px;
+        display: block;
+    }
+    .aboutPage .aboutMe{
+        width: 80%;
+        padding: 40px 0;
+        padding-bottom: 60px;
+    }
+    .aboutPage .image{
+        display: none;
+    }
+}
+@media only screen and (max-width: 768px) {
+    body{
+        background-color: #c9c9c9;
+    }
+    .aboutPage{
+        width: 100%;
+        height: auto;
+        padding: 20px;
+        display: block;
+    }
+    .aboutPage .aboutMe{
+        width: 80%;
+        padding: 40px 0;
+        padding-bottom: 60px;
+    }
+    .aboutPage .image{
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    body{
+        background-color: #c9c9c9;
+    }
+    .aboutPage{
+        width: 100%;
+        height: auto;
+        padding: 20px;
+        display: block;
+    }
+    .aboutPage .aboutMe{
+        width: 80%;
+        padding: 40px 0;
+        padding-bottom: 60px;
+    }
+    .aboutPage .image{
+        display: none;
+    }
+}

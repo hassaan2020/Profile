@@ -1,0 +1,316 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+
+input,
+textarea,
+button,
+select,
+a {
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+a:focus,a:visited,a:active{
+  outline: none;
+}
+* {
+    -webkit-tap-highlight-color: transparent;
+}
+
+
+.nav{
+    background-color: #151D3B ;
+    height: 100vh;
+    width: 20%;
+    float: left;
+}
+.nav .imProf{
+    width: 120px;
+    height: 120px;
+    background-color: #1b6bcb;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+}
+.nav .imProf img{
+    width: 100%;
+    height: 100%;
+    transform: scaley(1.9) scaleX(1.1) translatey(25px);
+}
+.nav h2{
+    color: #c9c9c9;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+
+}
+.nav .socialLinks{
+    width: 100%;
+    padding:0 5px;
+    box-sizing: border-box;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.nav .socialLinks a{
+    text-decoration: none;
+}
+.nav .socialLinks .i{
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    padding: 6px;
+    margin: 0 7px;
+    color: #c9c9c9;
+    background-color: #26325e;
+    transition: 0.5s;
+}
+.nav .socialLinks .i:hover{
+    background-color: #1b6bcb;
+    color: #fff;
+    transition: 0.5s;
+}
+.nav a{
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav .links{
+    width: 100%;
+    /* background-color: #D82148; */
+    box-sizing: border-box;
+    color: rgb(119, 114, 114);
+    font-size: 13px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    padding: 15px;
+    transition: 0.5s;
+}
+.nav .links:hover{
+    color: #fff;
+    background-color: #111938;
+    transition: 0.5s;
+}
+.nav .links .i{
+    margin-right: 20px;
+    margin-left: 30px;
+    font-size: 18px;
+    transition: 0.5s;
+}
+.nav .links:hover .i{
+    color: #1b6bcb;
+    transition: 0.5s;
+}
+.active{
+    background-color: #111938;
+    border-right: 6px solid #1b6bcb;
+}
+.active span{
+    color: #fff;
+}
+.active .i {
+    color: #1b6bcb;
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 600px) {
+    .nav{
+        height: auto;
+        width: 100%;
+        overflow: hidden;
+        float: none;
+        position: fixed;
+        bottom: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #151D3B;
+    }
+    .nav .imProf, .myName{
+        display: none;
+    }
+    .nav .socialLinks {
+        display: none;
+    }  
+    .nav .NavLink:last-child{
+        display: none;
+    }
+    .nav .links{
+        flex-grow: 1;
+        padding: 15px 0px;
+        width: 25%;
+        margin: 0 5px;
+        transition: 0s;
+        color: #c9c9c9;
+    }
+    .nav .links span{
+        display: none;
+    }
+    .nav .links:hover{
+        color: #1b6bcb;
+        background-color: transparent;
+        transition: 0s;
+    }
+    .nav .links .i{
+        margin: 0;
+    }
+    .nav .links:hover .i{
+        color: #1b6bcb;
+        transition: 0s;
+    }
+    .active{
+        background-color: transparent;
+        border-right: none;
+        transition: 0s;
+
+    }
+    .active .i{
+        color: #1b6bcb;
+        transition: 0s;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+    .nav{
+        width: 15%;
+    }
+    .nav .imProf{
+        width: 70px;
+        height: 70px;
+    }
+    .nav .imProf img{
+        transform: scaley(1.9) scaleX(1.1) translatey(16px);
+    }
+    .nav .myName{
+        font-size: 2.5vh;
+        margin-bottom: 15px;
+    }
+    .nav .socialLinks{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .nav .socialLinks .i{
+        margin: 5px;
+    }
+    .nav .links .i{
+        font-size: 3vh;
+        margin-bottom: 5px;
+        
+    }
+    .nav .links span{
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .nav{
+        height: auto;
+        width: 100%;
+        overflow: hidden;
+        float: none;
+        position: fixed;
+        bottom: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #151D3B;
+    }
+    .nav .imProf, .myName{
+        display: none;
+    }
+    .nav .socialLinks {
+        display: none;
+    }  
+    .nav .NavLink:last-child{
+        display: none;
+    }
+    .nav .links{
+        flex-grow: 1;
+        padding: 15px 0px;
+        margin: 0 35px;
+        transition: 0s;
+        color: #c9c9c9;
+    }
+    .nav .links span{
+        display: none;
+    }
+    .nav .links:hover{
+        color: #1b6bcb;
+        background-color: transparent;
+        transition: 0s;
+    }
+    
+    .nav .links:hover .i{
+        color: #1b6bcb;
+        transition: 0s;
+    }
+    .active{
+        background-color: transparent;
+        border-right: none;
+        transition: 0s;
+
+    }
+    .active .i{
+        color: #1b6bcb;
+        transition: 0s;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .nav{
+        height: auto;
+        width: 100%;
+        overflow: hidden;
+        float: none;
+        position: fixed;
+        bottom: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #151D3B;
+    }
+    .nav .imProf, .myName{
+        display: none;
+    }
+    .nav .socialLinks {
+        display: none;
+    }  
+    .nav .NavLink:last-child{
+        display: none;
+    }
+    .nav .links{
+        flex-grow: 1;
+        padding: 15px 0px;
+        margin: 0 35px;
+        transition: 0s;
+        color: #c9c9c9;
+    }
+    .nav .links span{
+        display: none;
+    }
+    .nav .links:hover{
+        color: #1b6bcb;
+        background-color: transparent;
+        transition: 0s;
+    }
+    
+    .nav .links:hover .i{
+        color: #1b6bcb;
+        transition: 0s;
+    }
+    .active{
+        background-color: transparent;
+        border-right: none;
+        transition: 0s;
+
+    }
+    .active .i{
+        color: #1b6bcb;
+        transition: 0s;
+    }
+}

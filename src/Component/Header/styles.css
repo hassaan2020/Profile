@@ -1,0 +1,72 @@
+
+.header{
+    text-align: center;
+    background-color: #151D3B;
+    margin: 0;
+    padding-bottom: 10px;
+    display: none;
+}
+.header .imProf{
+    width: 80px;
+    height: 80px;
+    background-color: #1b6bcb;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+}
+.header .imProf img{
+    width: 100%;
+    height: 100%;
+    transform: scaley(1.9) scaleX(1.1) translatey(19px);
+}
+.header h4{
+    color: #c9c9c9;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    margin: 10px;
+}
+
+.header .socialLinks{
+    width: 100%;
+    padding:0 5px;
+    box-sizing: border-box;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.header .socialLinks a{
+    text-decoration: none;
+}
+.header .socialLinks .i{
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    padding: 8px;
+    margin: 0 7px;
+    color: #c9c9c9;
+    background-color: #26325e;
+    transition: 0.5s;
+}
+
+@media only screen and (max-width: 600px) {
+    .header{
+        display: grid;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .header{
+        display: grid;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .header{
+        display: grid;
+    }
+}
