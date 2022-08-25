@@ -1,3 +1,6 @@
+body{
+    background-color: #c9c9c9 ;
+}
 .experPage{
     background-color: #c9c9c9 ;
     height: 100vh;
@@ -31,4 +34,29 @@
 .experPage .project a{
     padding-left: 15px;
     margin-bottom: 5px;
+}
+
+@media only screen and (max-width: 768px) {
+    .experPage{
+        display: block;
+        width: 100%;
+        padding: 20px;
+    }
+    .experPage .project{
+        width: 85%;
+        margin: 20px auto;
+    }
+}
+
+
+@media only screen and (max-width: 992px) {
+    .experPage{
+        height: 100vh;
+        width: 100%;
+        display: grid;
+        padding: 20px;
+        grid-template-columns: 25% 25%;
+        gap: 10px;
+        grid-template-rows: 270px;
+    }
 }
