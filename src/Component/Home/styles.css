@@ -40,12 +40,12 @@
     padding: 15px 50px;
     margin: 35px 20px;
     background-color: transparent;
-    border: 1px solid #151D3B;
-    color: #151D3B;
+    border: 1px solid #1b6bcb;
+    color: #1b6bcb;
     transition: 0.7s;
 }
 .homePage .welcome button:hover{
-    background-color: #151D3B;
+    background-color: #1b6bcb;
     color: #c9c9c9;
     transition: 0.7s;
     cursor: pointer;

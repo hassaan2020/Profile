@@ -5,7 +5,7 @@ import Navbar from './Component/Navbar'
 import Home from './Component/Home'
 import About from './Component/About'
 import Skills from './Component/Skills'
-import Experience from './Component/Experience'
+import Works from './Component/Works'
 import Contact from './Component/Contact'
 import Header from './Component/Header';
 
@@ -21,13 +21,12 @@ class App extends Component {
         
         <Header />
         <Navbar/>
-        <Home/>
         
         <Routes>
-          <Route exact path='/' element = {<Home/>}/>
+          <Route path='/' element = {<Home/>}/>
           <Route path='/About' element = {<About/>} />
           <Route path='/Skills' element = {<Skills/>} />
-          <Route path='/Experience' element = {<Experience/>} />
+          <Route path='/Works' element = {<Works/>} />
           <Route path='/Contact' element = {<Contact/>} />
         </Routes>
       </div>

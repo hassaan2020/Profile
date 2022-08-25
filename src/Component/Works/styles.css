@@ -1,0 +1,34 @@
+.experPage{
+    background-color: #c9c9c9 ;
+    height: 100vh;
+    width: 80%;
+    float: right;
+    display: grid;
+    padding: 40px;
+    grid-template-columns: 25% 25% 25% 25%;
+    gap: 10px;
+    grid-template-rows: 270px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    overflow: hidden;
+    overflow-y: auto;
+    box-sizing: border-box;
+}
+.experPage .project{
+    overflow: hidden;
+    padding-bottom: 10px;
+    background-color: #dfdede;
+    border-radius: 10px;
+}
+.experPage .project img{
+    width: 100%;
+    height: 170px;
+}
+.experPage .project h2{
+    padding-left: 15px;
+    margin-bottom: 10px;
+}
+.experPage .project a{
+    padding-left: 15px;
+    margin-bottom: 5px;
+}

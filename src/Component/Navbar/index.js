@@ -54,10 +54,10 @@ const Navbar = () => {
             </div>
         </NavLink>
 
-        <NavLink to='/Experience' className='NavLink'>
+        <NavLink to='/Works' className='NavLink'>
           <div className='links'>
               <FontAwesomeIcon className='i' icon={faTrophy}></FontAwesomeIcon>
-              <span>Experience </span>
+              <span>My Works </span>
             </div>
         </NavLink>
 

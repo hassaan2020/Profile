@@ -23,9 +23,23 @@
 .aboutPage .aboutMe p{
     line-height: 1.7;
     font-size: 2vh;
+    margin-bottom: 40px;
     text-align: justify;
     text-justify: inter-word;
     color: #525252;
+}
+.aboutPage .aboutMe a{
+    text-decoration: none;
+    padding: 10px 40px;
+    border: 1px solid #1b6bcb;
+    color: #1b6bcb;
+    font-size: 2vh;
+    transition: 0.7s;
+}
+.aboutPage .aboutMe a:hover{
+    background-color: #1b6bcb;
+    color: #c9c9c9;
+    transition: 0.7s;
 }
 .aboutPage .image{
     height: 600px;

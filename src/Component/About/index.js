@@ -11,6 +11,7 @@ const About = () => {
            Capable of continous learn from senior developers while still nuturing junior developers.
             Passionate about learning and development with adesire to apply skills on a larger development.
              Eager to tackle more complex problems and continue to find ways to maximice user effeciency.</p>
+             <a target='blank' href='https://drive.google.com/file/d/1e2-aDHpEfJHvaGP-4IZA1pdc45JzwVHc/view?usp=sharing'>View CV</a>
       </div>
       <div className='image'>
         <img src={pic}/>
